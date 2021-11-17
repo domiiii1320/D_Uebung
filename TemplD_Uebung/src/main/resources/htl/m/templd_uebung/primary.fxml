@@ -8,23 +8,22 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="676.0" prefWidth="875.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="htl.m.templd_uebung.PrimaryController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="676.0" prefWidth="875.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="htl.m.templd_uebung.PrimaryController">
    <children>
-      <Label fx:id="lbl_id" layoutX="803.0" layoutY="14.0" />
-      <Label layoutX="737.0" layoutY="14.0" text="ID:" />
-      <Label fx:id="lbl_Vorname" layoutX="803.0" layoutY="43.0" />
-      <Label layoutX="737.0" layoutY="43.0" text="Vorname:" />
-      <Label layoutX="737.0" layoutY="73.0" text="Nachname:" />
-      <Label fx:id="lbl_Nachname" layoutX="803.0" layoutY="73.0" />
-      <Label layoutX="737.0" layoutY="103.0" text="Groesse:" />
-      <Label fx:id="lbl_Groesse" layoutX="803.0" layoutY="103.0" />
-      <Label layoutX="737.0" layoutY="135.0" text="Gewicht:" />
-      <Label fx:id="lbl_Gewicht" layoutX="803.0" layoutY="135.0" />
-      <Label layoutX="737.0" layoutY="167.0" text="BMI" />
-      <Label fx:id="lbl_BMI" layoutX="803.0" layoutY="167.0" />
-      <Label layoutX="737.0" layoutY="196.0" text="FFMI" />
-      <Label fx:id="lbl_FFMI" layoutX="803.0" layoutY="196.0" />
+      <Label fx:id="lbl_id" layoutX="737.0" layoutY="14.0" />
+      <Label layoutX="671.0" layoutY="14.0" text="ID:" />
+      <Label fx:id="lbl_Vorname" layoutX="737.0" layoutY="43.0" />
+      <Label layoutX="671.0" layoutY="43.0" text="Vorname:" />
+      <Label layoutX="671.0" layoutY="73.0" text="Nachname:" />
+      <Label fx:id="lbl_Nachname" layoutX="737.0" layoutY="73.0" />
+      <Label layoutX="671.0" layoutY="103.0" text="Groesse:" />
+      <Label fx:id="lbl_Groesse" layoutX="737.0" layoutY="103.0" />
+      <Label layoutX="671.0" layoutY="135.0" text="Gewicht:" />
+      <Label fx:id="lbl_Gewicht" layoutX="737.0" layoutY="135.0" />
+      <Label layoutX="671.0" layoutY="167.0" text="BMI" />
+      <Label fx:id="lbl_BMI" layoutX="737.0" layoutY="167.0" />
+      <Label layoutX="671.0" layoutY="196.0" text="FFMI" />
+      <Label fx:id="lbl_FFMI" layoutX="737.0" layoutY="196.0" />
       <BarChart fx:id="bc_BMI" layoutX="398.0" layoutY="230.0" prefHeight="138.0" prefWidth="462.0">
         <xAxis>
           <CategoryAxis side="BOTTOM" />
