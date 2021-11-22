@@ -8,6 +8,7 @@ import htl.m.templd_uebung.model.Person;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
 import java.util.List;
@@ -91,9 +92,14 @@ public class PrimaryController  implements Initializable{
                 
                 GsonBuilder builder = new GsonBuilder();
                 Gson gson = builder.create();
+                Person p = null;
+                try {
+                    p = gson.fromJson(new FileReader(jsonFile), Person.class);
+                    System.out.println("");
+                } catch (FileNotFoundException ex) {
+                    Logger.getLogger(PrimaryController.class.getName()).log(Level.SEVERE, null, ex);
+                }
             }
         });
-        
-        
     }
 }
